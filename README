@@ -1,0 +1,44 @@
+1.check_buildroot_package.py
+
+		check if the buildroot use the latest version for each package
+**************************************************************************************
+
+2.check_diff_on_base.py
+		
+		check the commit history for each package between base and buildroot 
+**************************************************************************************
+
+3.read_diff_respective.py
+		
+		check the commit base on the number of commit on special branch for buildroot
+		print the commit id and commitor
+**************************************************************************************
+
+4.Read_GIT_2x_linux.py
+
+		export package history on buildroot , named "Statistic.xls" 
+***************************************************************************************
+
+5.reset_version_as_list.sh
+
+		reset the packge to assigned version 
+***************************************************************************************
+
+6.clean.sh
+
+		clean the folder and histpry in current path
+***************************************************************************************
+
+7.copy2tmp_n331.sh
+
+		copy files to /home/N331/tmp , let them easy to access on windows	
+*****************************************************************************************
+
+8.export_hmi_history.sh
+
+		export history
+*****************************************************************************************
+
+9.ExportExcel_3x_windows.py
+		export package history on buildroot , not use any more
+*****************************************************************************************
